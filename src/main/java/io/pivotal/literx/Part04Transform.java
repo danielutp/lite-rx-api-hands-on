@@ -1,5 +1,6 @@
 package io.pivotal.literx;
 
+import ch.qos.logback.core.helpers.Transform;
 import io.pivotal.literx.domain.User;
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
@@ -15,7 +16,7 @@ public class Part04Transform {
 
 	// TODO Capitalize the user username, firstname and lastname
 	Mono<User> capitalizeOne(Mono<User> mono) {
-		return null;
+		Transform.
 	}
 
 //========================================================================================
